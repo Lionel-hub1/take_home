@@ -7,3 +7,74 @@
     font-family: 'Poppins Regular';
     src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
 }
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2px;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 293px;
+    min-height: 600px;
+    overflow: auto;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.texts {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0% 15% 20%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    width: 100%;
+}
+
+.name {
+    font-family: 'DIN Condensed Bold';
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.location {
+    font-family: 'Poppins Regular';
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.more-btn {
+    display: none;
+    font-family: 'Poppins Regular';
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: cyan;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
