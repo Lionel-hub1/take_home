@@ -24,7 +24,7 @@ body {
     height: 100%;
     max-width: 293px;
     min-height: 600px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .image {
@@ -67,8 +67,7 @@ body {
     text-transform: capitalize;
 }
 
-.more-btn {
-    display: none;
+/* .more-btn {
     font-family: 'Poppins Regular';
     font-size: 14px;
     text-transform: capitalize;
@@ -77,4 +76,4 @@ body {
     border: none;
     padding: 0;
     cursor: pointer;
-}
+} */
