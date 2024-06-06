@@ -15,6 +15,16 @@ This project's design and functionality are based on this [Figma design](https:/
 -   Responsive design: The gallery layout adjusts dynamically based on the screen size, ensuring a seamless experience across devices.
 -   Interactivity: Users get an interactive experience when hovering over images, with animations and transitions that enhance the visual appeal.
 
+## Design approach
+
+The design of the `Interactive Photo Gallery` is based on the following principles:
+
+1. **HTML for structure**: The HTML file contains the structure of the gallery, with each gallery item contained and referenced by a className and it's subparts as well. In the index.html file, I used normalize.css to reset the default styles of the browser and ensure consistency across different browsers.
+
+2. **CSS for styling**: The CSS file contains the styling rules for the gallery, including the layout, colors, typography. The CSS file also includes media queries to ensure the gallery is responsive across different screen sizes.
+
+3. **JavaScript for interactivity**: The JavaScript file contains the logic for the interactive features of the gallery, such as mouse hover expected behavior including injecting the new button to the DOM.
+
 ## Requirements
 
 To run this project, you need to only have a web browser installed on your device.
