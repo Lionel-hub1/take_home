@@ -37,7 +37,7 @@ body {
 
 .texts {
     position: absolute;
-    width: 100%;
+    width: fit-content;
     bottom: 0;
     right: 0;
     left: 0;
