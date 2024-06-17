@@ -3,7 +3,7 @@ function transformString(inputStr) {
 
     // Checking by 3 and 5
     if (length % 15 === 0) {
-        return inputStr.split('').reverse().join('');
+        return inputStr.split('').reverse().map(char => char.charCodeAt(0)).join(' ');
     }
 
     // Checking by 3
@@ -25,3 +25,4 @@ function transformString(inputStr) {
 console.log(transformString("Hamburger"));
 console.log(transformString("Pizza"));
 console.log(transformString("Chocolate Chip Cookie"));
+console.log(transformString("ChocolateyPizza"));
